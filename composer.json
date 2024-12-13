@@ -1,0 +1,30 @@
+{
+    "name": "jllopez/estructure-desing",
+    "description": "En esta librería se encuentra un sistema de estructura de diseño con Livewire",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Jllopez\\EstructureDesing\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "JoseL-Lopez",
+            "email": "jose.lopez@investta.com"
+        }
+    ],
+    "require": {
+        "livewire/livewire": "^3.5",
+        "php": "^8.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Jllopez\\EstructureDesing\\AtomicDesignServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable",
+    "license": "MIT"
+}
+
